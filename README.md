@@ -28,7 +28,7 @@ Text
 <br/>
 <p align="center">
   <img src="./readme_media/logp.png"><br/>
-  Projection of compounds by clinical research phase reached
+  Caption
  </p>
 <br/>
 
@@ -43,7 +43,7 @@ Text
 <br/>
 <p align="center">
   <img src="./readme_media/scree_plot.png"><br/>
-  Projection of compounds by clinical research phase reached
+  Caption
  </p>
 <br/>
 
@@ -56,21 +56,21 @@ Text
 <br/>
 <p align="center">
   <img src="./readme_media/phases.png"><br/>
-  Projection of compounds by clinical research phase reached
+  Caption
  </p>
 <br/>
 
 <br/>
 <p align="center">
   <img src="./readme_media/phases_z.png"><br/>
-  Projection of compounds by clinical research phase reached
+  Caption
  </p>
 <br/>
 
 <br/>
 <p align="center">
   <img src="./readme_media/phases_x.png"><br/>
-  Projection of compounds by clinical research phase reached
+  Caption
  </p>
 <br/>
 
@@ -81,21 +81,21 @@ Text
 <br/>
 <p align="center">
   <img src="./readme_media/systems.gif"><br/>
-  Projection of compounds by clinical research phase reached
+  Caption
  </p>
 <br/>
 
 <br/>
 <p align="center">
   <img src="./readme_media/nervous_antiinfective.png"><br/>
-  Projection of compounds by clinical research phase reached
+  Caption
  </p>
 <br/>
 
 <br/>
 <p align="center">
   <img src="./readme_media/gastric_respiratory.png"><br/>
-  Projection of compounds by clinical research phase reached
+  Caption
  </p>
 <br/>
 
