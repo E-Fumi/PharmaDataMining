@@ -2,11 +2,11 @@
 
 ## Intro
 
-In this project data mining (principal component analysis) is performed on a dataset of over 40,000 bioactive compounds, encompassing information pertaining to their structure and chemical properties.
+In this project data mining (principal component analysis) is performed on a dataset of over 40,000 bioactive compounds, encompassing information on their structure and chemical properties.
 
 <br/>
 <p align="center">
-  <img src="./readme_media/phases.gif" width="336" height="120"><br/>
+  <img src="./readme_media/phases.gif" width="336" height="336"><br/>
   Caption
  </p>
 <br/>
