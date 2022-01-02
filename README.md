@@ -101,4 +101,6 @@ Text
 
 ## Requirements
 
+Google Chrome Version 96.0.4664.110<br/>
+
 ## Usage
