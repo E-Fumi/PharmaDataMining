@@ -6,7 +6,7 @@ In this project data mining (principal component analysis) is performed on a dat
 
 <br/>
 <p align="center">
-  <img src="./readme_media/phases.gif" width="336" height="336"><br/>
+  <img src="./readme_media/phases.gif" width="336" height="300"><br/>
   Caption
  </p>
 <br/>
