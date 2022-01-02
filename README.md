@@ -29,7 +29,7 @@ Text
 
 <br/>
 <p align="center">
-  <img src="./readme_media/logp.png"><br/>
+  <img src="./readme_media/logp.png" width="400"><br/>
   Caption
  </p>
 <br/>
