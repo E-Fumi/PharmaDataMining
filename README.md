@@ -7,7 +7,7 @@ In this project data mining (principal component analysis) is performed on a dat
 <br/>
 <p align="center">
   <img src="./readme_media/phases.gif" width="400" height="360"><br/>
-  Projection by clinical research phase reached.
+  Projection of compounds by clinical research phase reached
  </p>
 <br/>
 
@@ -19,17 +19,85 @@ Dimensionality reduction is performed through principal component analysis where
 
 ### Scraping
 
+Text
+
 ### LogP Estimation
+
+Text
+
+<br/>
+<p align="center">
+  <img src="./readme_media/logp.png"><br/>
+  Projection of compounds by clinical research phase reached
+ </p>
+<br/>
 
 ### Double Bond Equivalents
 
+Text
+
 ## Analysis
+
+Text
+
+<br/>
+<p align="center">
+  <img src="./readme_media/scree_plot.png"><br/>
+  Projection of compounds by clinical research phase reached
+ </p>
+<br/>
 
 ## Insights
 
 ### Clinical Research Phase
 
+Text
+
+<br/>
+<p align="center">
+  <img src="./readme_media/phases.png"><br/>
+  Projection of compounds by clinical research phase reached
+ </p>
+<br/>
+
+<br/>
+<p align="center">
+  <img src="./readme_media/phases_z.png"><br/>
+  Projection of compounds by clinical research phase reached
+ </p>
+<br/>
+
+<br/>
+<p align="center">
+  <img src="./readme_media/phases_x.png"><br/>
+  Projection of compounds by clinical research phase reached
+ </p>
+<br/>
+
 ### Target Organ System
+
+Text
+
+<br/>
+<p align="center">
+  <img src="./readme_media/systems.gif"><br/>
+  Projection of compounds by clinical research phase reached
+ </p>
+<br/>
+
+<br/>
+<p align="center">
+  <img src="./readme_media/nervous_antiinfective.png"><br/>
+  Projection of compounds by clinical research phase reached
+ </p>
+<br/>
+
+<br/>
+<p align="center">
+  <img src="./readme_media/gastric_respiratory.png"><br/>
+  Projection of compounds by clinical research phase reached
+ </p>
+<br/>
 
 ## Requirements
 
