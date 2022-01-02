@@ -44,7 +44,7 @@ Text
 
 <br/>
 <p align="center">
-  <img src="./readme_media/scree_plot.png"><br/>
+  <img src="./readme_media/scree_plot.png" width="400"><br/>
   Caption
  </p>
 <br/>
