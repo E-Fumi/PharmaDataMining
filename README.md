@@ -7,7 +7,8 @@ In this project data mining (principal component analysis) is performed on a dat
 <br/>
 <p align="center">
   <img src="./readme_media/phases.gif" width="400" height="360"><br/>
-  Projection of compounds by clinical research phase reached
+  Projection of compounds color coded<br/>
+  by clinical research phase reached
  </p>
 <br/>
 
