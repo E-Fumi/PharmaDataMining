@@ -101,6 +101,20 @@ Text
 
 ## Requirements
 
+python 3.x</br>
+matplotlib</br>
+numpy</br>
+pandas</br>
+plotly</br>
+scikit-learn</br>
+selenium</br>
+wget</br>
 Google Chrome Version 96.0.4664.110<br/>
+If you do not have it, this last one would need to be installed manually, but it is only necessary if you want to perform the data cleaning youself. You do not need it if you use the cleaned datasets provided in the main folder.</br>
 
 ## Usage
+
+`git clone https://github.com/E-Fumi/PharmaDataMining.git`</br>
+`cd PharmaDataMining`</br>
+`pip install -r requirements.txt`</br>
+`python main.py`
