@@ -17,6 +17,7 @@ The data obtained from the [ChEMBL](https://www.ebi.ac.uk/chembl/) database is e
 Dimensionality reduction is performed through principal component analysis where the 10-dimensional dataset is transformed to a 4-dimensional dataset maintaining ~85% of the original variation. The resulting data is plotted in 3D (the further dimension being represented through colour), where interesting patterns can be observed.<br/>
 
 If you would like to run the code and take a look at the 3D plots yourself, you can do so by following the instructions in the Usage section.<br/>
+
 <br/>
 
 ## Data Cleaning and Augmentation
@@ -24,6 +25,8 @@ If you would like to run the code and take a look at the 3D plots yourself, you 
 ### Scraping
 
 As mentioned above, many of the entries in the datasets obtained from ChEMBL were missing crucial information pertaining to the compounds' properties. However, [PubChem](https://pubchem.ncbi.nlm.nih.gov/) is an excellent resource where many of these properties can be retrieved. I built a webscraper in Selenium that can search PubChem for the names of compounds with missing properties, check whether the requested page is a match (by comparing molecular formulas or names), and scrape molecular weight, heavy atom count, rotatable bond count, topological polar surface area, and number of hydrogen bond donors and acceptors. The significance of these entries is discussed in the Analysis section of this readme. 
+
+<br/>
 
 ### LogP Estimation
 
@@ -43,10 +46,14 @@ However, the full ChEMBL dataset (including a majority of experimental compounds
 
 Extrapolation through simple linear regression is adequate for the purposes of data imputation, and has thus been executed in this project. More accurate methods for logP simulation do exist, but they do not lend themselves to quickly calculate this value for thousands of compounds.<br/>
 
+<br/>
+
 ### Double Bond Equivalents
 
-Text
+A further, crucial property of a molecule is its rigidity. This can be inferred from the molecular formula and is encapsulated in the measure of double bond equivalents, which describe how unsaturated a molecule is. Each double bond, and each ring in a molecule contributes to its rigidity and accounts for one double bond equivalent. The double_bond_equivalents.py script parses the formula and calculates this metric so that it can be added to the cleaned dataset.
+
 <br/>
+
 ## Analysis
 
 Text
