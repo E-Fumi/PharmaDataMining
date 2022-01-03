@@ -58,17 +58,33 @@ A further, crucial property of a molecule is its rigidity. This can be inferred 
 
 ### The Data
 
-The cleaned and augmented dataset lists the properties of over 40,000 bioactive compounds. Besides name and chemical formula, which are not relevant for the statistical analysis, each compound has 10 or 11 entries which do play a role:<br/>
+The cleaned and augmented dataset lists the properties of over 40,000 bioactive compounds. Besides name and chemical formula, which are not relevant for the statistical analysis, each compound has 10 or 11 entries which do play a role; 9 of these quantify properties that define the chemical space that the molecules occupy.<br/>
+
+#### Size
 
 - Molecular weight: the sum of the mass of all constituent atoms within the molecule<br/>
 - Heavy atom count: the number of non-hydrogen atoms in the molecule<br/>
-- <br/>
-- <br/>
-- <br/>
-- <br/>
-- <br/>
-- <br/>
-- <br/>
+
+#### Flexibility
+
+- Rotatable bond count: the number of bonds in the molecule that can freely rotate around their axis.<br/>
+- Double bond equivalents: a<br/>
+
+#### Polarity
+
+- LogP:<br/>
+- Topological polar surface area:<br/>
+
+#### Composition
+
+- Inorganic Flag:<br/>
+- Hydrogen bond donor count:<br/>
+- Hydrogen bond acceptor count:<br/>
+
+#### Other
+
+- Max phase: the maximum phase of clinical research reached by a compound<br/>
+- Target system: the organ system in the body that is targeted by a compound<br/>
 
 <br/>
 
