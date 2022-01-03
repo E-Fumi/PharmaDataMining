@@ -57,8 +57,11 @@ Text
   Caption
  </p>
 <br/>
+
 Text?<br/>
+
 <br/>
+
 ## Insights
 
 ### Clinical Research Phase
