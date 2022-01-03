@@ -31,7 +31,7 @@ In chemistry, the logarithm of the partition coefficient (logP) is a very useful
 
 Unfortunately, this metric can frequently not be retrieved from PubChem, and is missing from many ChEMBL dataset entries. This is due to the low solubility of many compounds in one or both solvents.<br/>
 
-However, the full ChEMBL dataset (including a majority of experimental compounds that have not been named, and thus cannot be included in the data mining) contains over a million compounds with logP values, polar surface area calculations, and heavy atom counts. The ratio between a molecule's polar surface area and its size can be used to roughly infer the compound's logP as shown by the plot below.<br/>
+However, the full ChEMBL dataset (including a majority of experimental compounds that have not been named, and thus cannot be included in the data mining) contains over a million compounds with logP values, polar surface area calculations, and heavy atom counts. The ratio between a molecule's polar surface area and its size can be used for a rough estimate of the compound's logP as shown by the plot below.<br/>
 
 <br/>
 <p align="center">
