@@ -28,6 +28,7 @@ As mentioned above, many of the entries in the datasets obtained from ChEMBL wer
 ### LogP Estimation
 
 In chemistry, the logarithm of the partition coefficient (logP) is a very useful metric to describe molecular properties. It is defined as the logarithm of the ratio of a compound's concentrations in a hydrophobic solvent (usually octanol) and water. Though more importantly, being a measure of how well a molecule will dissolve in polar vs. nonpolar solvents, it is a very effective way of quantifying how polar a molecule is.<br/>
+
 Unfortunately, this metric can frequently not be retrieved from PubChem, and is missing from many ChEMBL dataset entries. This is due to the low solubility of many compounds in one or both solvents.<br/>
 
 <br/>
