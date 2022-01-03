@@ -98,7 +98,7 @@ The principal component analysis is performed with the SciKit-Learn library, whi
 
 The data is pre-processed so that all 9 dimensions (i.e. entries describing chemical properties) have a mean of 0 and a standard deviation of 1. The principal component analysis is then executed automatically, with the calculation of covariance matrix, eigenvectors, eigenvalues, and principal components happening behind the scenes. Finally, the data is transformed to a 9-dimensional coordinate system defined by the principal components.<br/>
 
-The scree plot pictured below shows that plotting this data in three dimensions retains approximately 85% of the data of the original dataset (this number is >90% when only considering compounds with a defined target system).<br/>
+The scree plot pictured below shows that plotting this data in three dimensions retains approximately 85% of the variance of the original dataset (this number is >90% when only considering compounds with a defined target system).<br/>
 
 <br/>
 <p align="center">
