@@ -59,21 +59,21 @@ Text
 
 <br/>
 <p align="center">
-  <img src="./readme_media/phases.png"><br/>
+  <img src="./readme_media/phases.png" width="650"><br/>
   Caption
  </p>
 <br/>
 
 <br/>
 <p align="center">
-  <img src="./readme_media/phases_z.png"><br/>
+  <img src="./readme_media/phases_z.png" width="650"><br/>
   Caption
  </p>
 <br/>
 
 <br/>
 <p align="center">
-  <img src="./readme_media/phases_x.png"><br/>
+  <img src="./readme_media/phases_x.png" width="650"><br/>
   Caption
  </p>
 <br/>
