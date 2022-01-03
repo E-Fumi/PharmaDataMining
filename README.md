@@ -68,18 +68,18 @@ The cleaned and augmented dataset lists the properties of over 40,000 bioactive 
 #### Flexibility
 
 - Rotatable bond count: the number of bonds in the molecule that can freely rotate around their axis.<br/>
-- Double bond equivalents: a<br/>
+- Double bond equivalents: the number of double bonds or ring closures present in the molecule.<br/>
 
 #### Polarity
 
-- LogP:<br/>
-- Topological polar surface area:<br/>
+- LogP: a measure of how hydrophobic (i.e. non water-soluble) a molecule is<br/>
+- Topological polar surface area: the surface area in Å<sup>2</sup> that is allocated to polar atoms (such as N and O, and the Hs linked to them)<br/>
 
 #### Composition
 
-- Inorganic Flag:<br/>
-- Hydrogen bond donor count:<br/>
-- Hydrogen bond acceptor count:<br/>
+- Inorganic Flag: a binary value showing whether a compound contains carbon-carbon bonds<br/>
+- Hydrogen bond donor count: the number of hydrogens bound to polar atoms, which can be donated to a hydrogen bond<br/>
+- Hydrogen bond acceptor count: the number of polar atoms that have free lone pairs of electrons, which can accept a hydrogen bond<br/>
 
 #### Other
 
