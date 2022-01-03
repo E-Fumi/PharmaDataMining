@@ -31,12 +31,18 @@ In chemistry, the logarithm of the partition coefficient (logP) is a very useful
 
 Unfortunately, this metric can frequently not be retrieved from PubChem, and is missing from many ChEMBL dataset entries. This is due to the low solubility of many compounds in one or both solvents.<br/>
 
+
+
 <br/>
 <p align="center">
   <img src="./readme_media/logp.png" width="400"><br/>
   Caption
  </p>
 <br/>
+
+Extrapolation through simple linear regression is adequate for the purposes of data imputation, and has thus been executed in this project.<br/>
+
+More accurate methods for logP simulation do exist, but they do not lend themselves to quickly calculate this value for thousands of compounds.<br/>
 
 ### Double Bond Equivalents
 
