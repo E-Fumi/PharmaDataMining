@@ -186,7 +186,7 @@ While these two groups do not occupy non-overlapping regions of chemical space, 
  </p>
 <br/>
 
-Text?<br/>
+If you would like to explore this data and its representations yourself, you're welcome to do so by following the instructions in the Usage section just below. Plot colors can be easily changed by altering the color lists in utils.py.<br/>
 
 <br/>
 
