@@ -116,7 +116,9 @@ While the eigenvectors (principal component unit vectors) do not have any intrin
  </p>
 <br/>
 
-Text?<br/>
+The first principal component accounts primarily for size, but also polarity. The second principal component correlates primarily with polarity, but is also positively biased towards flexible, organic compounds. And the third principal component is dominated by the inorganic flag, with a secondary correlation with hydrophobicity.<br/>
+
+The transformed data projected along the first three principal components has been plotted in interactive 3D scatter plots with plotly.<br/>
 
 <br/>
 
