@@ -82,12 +82,16 @@ Text?<br/>
 
 In the figure below, one can see the >40,000 pharmaceutical compounds projected along the three principal component dimensions, color coded by which clinical phase they reached. Each point is transparent (alpha = 20%) to limit how much data points crowd each other out in the visual representation.<br/>
 
+A small cluster of data points can be spotted in the upper left corner, these are inorganic compounds. However, most data points represent organic molecules, and they group together in a cluster that is spread on a slanted plain.<br/>
+
 <br/>
 <p align="center">
   <img src="./readme_media/phases.png" width="650"><br/>
   Caption
  </p>
 <br/>
+
+A view from above (pictured below) shows that most successful pharmaceutical compounds are grouped along the 'spine' of the cluster, with relatively low values along the first principal component.<br/>
 
 <br/>
 <p align="center">
@@ -96,12 +100,16 @@ In the figure below, one can see the >40,000 pharmaceutical compounds projected 
  </p>
 <br/>
 
+Interestingly, a view from the side (pictured below) shows that successful pharmaceutical compounds tend to group towards the center of the cluster in the dimension perpendicular to its plain.<br/>
+
 <br/>
 <p align="center">
   <img src="./readme_media/phases_x.png" width="650"><br/>
   Caption
  </p>
 <br/>
+
+This interpretation of the data could be used to shape a prediction model for the appraisal of the likelihood that a drug candidate may reach clinical research phase 4.<br/>
 
 ### Target Organ System
 
