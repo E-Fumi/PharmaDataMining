@@ -39,7 +39,7 @@ Text
 ### Double Bond Equivalents
 
 Text
-
+<br/>
 ## Analysis
 
 Text
@@ -57,7 +57,8 @@ Text
   Caption
  </p>
 <br/>
-
+Text?<br/>
+<br/>
 ## Insights
 
 ### Clinical Research Phase
@@ -109,7 +110,8 @@ Text
   Caption
  </p>
 <br/>
-
+Text?<br/>
+<br/>
 ## Requirements
 
 python 3.x</br>
