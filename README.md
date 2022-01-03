@@ -41,9 +41,7 @@ However, the full ChEMBL dataset (including a majority of experimental compounds
  </p>
 <br/>
 
-Extrapolation through simple linear regression is adequate for the purposes of data imputation, and has thus been executed in this project.<br/>
-
-More accurate methods for logP simulation do exist, but they do not lend themselves to quickly calculate this value for thousands of compounds.<br/>
+Extrapolation through simple linear regression is adequate for the purposes of data imputation, and has thus been executed in this project. More accurate methods for logP simulation do exist, but they do not lend themselves to quickly calculate this value for thousands of compounds.<br/>
 
 ### Double Bond Equivalents
 
