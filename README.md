@@ -164,7 +164,9 @@ The view of all compounds at once shows the same pattern of organic molecules oc
  </p>
 <br/>
 
+Pictured below are, side by side, the projections of pharmaceutical compounds that target the nervous system (antidepressants, antipsychotics...) shown in grey, and anti-infective compounds (antibiotics, antivirals...) shown in dark blue.<br/>
 
+One can clearly see that they occupy distinct chemical niches with little overlap. This distinction nicely reflects the difference in environments that they have to reach in order to act, with the compounds targeting the central nervous system having to pass the blood-brain barrier, and with anti-infective medications frequently targeting bacterial or fungal cells, which are quite different from our own.<br/>
 
 <br/>
 <p align="center">
