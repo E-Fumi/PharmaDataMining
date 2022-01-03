@@ -124,4 +124,5 @@ If you do not have it, this last item would need to be installed manually, but i
 `pip install -r requirements.txt`</br>
 `python main.py`</br>
 </br>
-There are two boolean variables in main.py that can be changed to alter the datasets, and presentation.
+There are two boolean variables in main.py that can be changed to alter the datasets, and presentation.</br>
+Should you wish to run the data cleaning scripts yourself, you can do so by renaming the csv files in the main directory.
