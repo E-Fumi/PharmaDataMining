@@ -107,10 +107,12 @@ The scree plot pictured below shows that plotting this data in three dimensions 
  </p>
 <br/>
 
+While the eigenvectors (principal component unit vectors) do not have any intrinsically consequential interpretation, they are useful in getting a sense for how the data is distributed. Below is a plot showing the loading scores (relative weights of the original dimensions) of each eigenvector for the first 3 principal components.<br/>
+
 <br/>
 <p align="center">
-  <img src="./readme_media/principal components.png"><br/>
-  Bar graph showing the first 3 principal components and their eigenvalues.<br/>
+  <img src="./readme_media/eigenvectors.png"><br/>
+  Bar graph showing the eigenvectors that define the first 3 principal components and their loading scores.<br/>
  </p>
 <br/>
 
