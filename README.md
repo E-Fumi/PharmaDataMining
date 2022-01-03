@@ -169,14 +169,14 @@ The view of all compounds at once shows the same pattern of organic molecules oc
 <br/>
 <p align="center">
   <img src="./readme_media/nervous_antiinfective.png"><br/>
-  Caption
+  Comparison of molecules that target the nervous system and antiinfective compounds<br/>
  </p>
 <br/>
 
 <br/>
 <p align="center">
   <img src="./readme_media/gastric_respiratory.png"><br/>
-  Caption
+  Comparison of molecules with a metabolically relevant function and molecules that target the respiratory system<br/>
  </p>
 <br/>
 
