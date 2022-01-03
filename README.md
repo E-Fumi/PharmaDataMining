@@ -51,6 +51,13 @@ Text
  </p>
 <br/>
 
+<br/>
+<p align="center">
+  <img src="./readme_media/principal components.png"><br/>
+  Caption
+ </p>
+<br/>
+
 ## Insights
 
 ### Clinical Research Phase
