@@ -56,7 +56,25 @@ A further, crucial property of a molecule is its rigidity. This can be inferred 
 
 ## Analysis
 
-Text
+### The Data
+
+The cleaned and augmented dataset lists the properties of over 40,000 bioactive compounds. Besides name and chemical formula, which are not relevant for the statistical analysis, each compound has 10 or 11 entries which do play a role:<br/>
+
+- Molecular weight: the sum of the mass of all constituent atoms within the molecule<br/>
+- Heavy atom count: the number of non-hydrogen atoms in the molecule<br/>
+- <br/>
+- <br/>
+- <br/>
+- <br/>
+- <br/>
+- <br/>
+- <br/>
+
+<br/>
+
+### Principal Component Analysis
+
+Text<br/>
 
 <br/>
 <p align="center">
