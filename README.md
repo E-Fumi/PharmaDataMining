@@ -123,6 +123,6 @@ You do not need it if you use the cleaned datasets provided in the main director
 `git clone https://github.com/E-Fumi/PharmaDataMining.git`</br>
 `cd PharmaDataMining`</br>
 `pip install -r requirements.txt`</br>
-`python main.py`
+`python main.py`</br>
 </br>
 There are two boolean variables in main.py that can be changed to alter the datasets, and presentation.
