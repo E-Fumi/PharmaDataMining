@@ -36,7 +36,7 @@ Unfortunately, this metric can frequently not be retrieved from PubChem, and is 
 <br/>
 <p align="center">
   <img src="./readme_media/logp.png" width="400"><br/>
-  Scatter plot of logP values and corresponding 
+  Scatter plot of logP values and corresponding<br/>
   polar surface area to heavy atom number ratio
  </p>
 <br/>
