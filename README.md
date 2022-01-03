@@ -94,19 +94,23 @@ These last two entries, unlike the others, do not describe the chemical space (t
 
 ### Principal Component Analysis
 
-Text<br/>
+The principal component analysis is performed with the SciKit-Learn library, which has a dedicated PCA package.<br/>
+
+The data is pre-processed so that all 9 dimensions (i.e. entries describing chemical properties) have a mean of 0 and a standard deviation of 1. The principal component analysis is then executed automatically, with the calculation of covariance matrix, eigenvectors, eigenvalues, and principal components happening behind the scenes. Finally, the data is transformed to a 9-dimensional coordinate system defined by the principal components.<br/>
+
+The scree plot pictured below shows that plotting this data in three dimensions retains approximately 85% of the data of the original dataset (this number is >90% when only considering compounds with a defined target system).<br/>
 
 <br/>
 <p align="center">
   <img src="./readme_media/scree_plot.png" width="400"><br/>
-  Caption
+  Scree plot from the PCA of the full cleaned dataset<br/>
  </p>
 <br/>
 
 <br/>
 <p align="center">
   <img src="./readme_media/principal components.png"><br/>
-  Caption
+  Bar graph showing the first 3 principal components and their eigenvalues.<br/>
  </p>
 <br/>
 
