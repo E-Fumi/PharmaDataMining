@@ -58,7 +58,7 @@ A further, crucial property of a molecule is its rigidity. This can be inferred 
 
 ### The Data
 
-The cleaned and augmented dataset lists the properties of over 40,000 bioactive compounds. Besides name and chemical formula, which are not relevant for the statistical analysis, each compound has 10 or 11 entries which do play a role; 9 of these quantify properties that define the chemical space that the molecules occupy.<br/>
+The cleaned and augmented dataset lists the properties of over 40,000 bioactive compounds. Besides name and chemical formula, which are not relevant for the statistical analysis, each compound has 10 or 11 entries which do play a role; 9 of these quantify properties that describe the chemical properties of these molecules.<br/>
 
 #### Size
 
@@ -81,10 +81,14 @@ The cleaned and augmented dataset lists the properties of over 40,000 bioactive 
 - Hydrogen bond donor count: the number of hydrogens bound to polar atoms, which can be donated to a hydrogen bond<br/>
 - Hydrogen bond acceptor count: the number of polar atoms that have free lone pairs of electrons, which can accept a hydrogen bond<br/>
 
-#### Other
+#### Physiology
 
 - Max phase: the maximum phase of clinical research reached by a compound<br/>
 - Target system: the organ system in the body that is targeted by a compound<br/>
+
+<br/>
+
+These last two entries, unlike the others, do not describe the chemical space (the n-dimensional property space spanned by all possible molecules) occupied by these bioactive compounds, and so are not used directly in the principal component analysis. However, since they represent the ultimate significance of a molecule for the pharmaceutical industry, they are used to colour-code the data and allow us to glean interesting insights.<br/>
 
 <br/>
 
