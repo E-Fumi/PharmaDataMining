@@ -55,7 +55,7 @@ Text
 
 ### Clinical Research Phase
 
-Text
+In the figure below, one can see the >40,000 pharmaceutical compounds projected along the three principal component dimensions, color coded by which clinical phase they reached. Each point is transparent (alpha = 0.1) so that the data points do not crowd each other out.<br/>
 
 <br/>
 <p align="center">
