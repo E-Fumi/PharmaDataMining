@@ -125,6 +125,7 @@ A small cluster of data points can be spotted in the upper left corner, these ar
 <br/>
 <p align="center">
   <img src="./readme_media/phases.png" width="650"><br/>
+  Projection of compounds color coded by clinical research phase reached<br/>
  </p>
 <br/>
 
@@ -133,6 +134,7 @@ A view from above (pictured below) shows that most successful pharmaceutical com
 <br/>
 <p align="center">
   <img src="./readme_media/phases_z.png" width="650"><br/>
+  Cluster of organic compounds viewed from above<br/>
  </p>
 <br/>
 
@@ -141,6 +143,7 @@ Interestingly, a view from the side (pictured below) shows that successful pharm
 <br/>
 <p align="center">
   <img src="./readme_media/phases_x.png" width="650"><br/>
+  Cluster of organic compounds viewed from the side<br/>
  </p>
 <br/>
 
@@ -150,14 +153,18 @@ This interpretation of the data could be used to shape a prediction model for th
 
 ### Target Organ System
 
-Text
+A subset of approximately 3200 bioactive compounds are listed as targeting a specific organ system. These molecules are pictured below, likewise projected along the three principal component dimensions, and color coded by target. Here as well, points are shown with some transparency (alpha = 50%) to reduce crowding.<br/>
+
+The view of all compounds at once shows the same pattern of organic molecules occupying a slanted plain and a little inorganic cluster in the upper left corner, but is otherwise uninsightful. However, comparing two subsets within this plot can be more interesting.<br/>
 
 <br/>
 <p align="center">
   <img src="./readme_media/systems.gif"><br/>
-  Caption
+  Projection of compounds color coded by their target system<br/>
  </p>
 <br/>
+
+
 
 <br/>
 <p align="center">
