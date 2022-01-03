@@ -115,8 +115,7 @@ selenium</br>
 wget</br>
 Google Chrome Version 96.0.4664.110<br/>
 <br/>
-If you do not have it, this last item would need to be installed manually, but it is only necessary if you want to perform the data cleaning youself.<br/>
-You do not need it if you use the cleaned datasets provided in the main directory.</br>
+If you do not have it, this last item would need to be installed manually, but it is only necessary if you want to perform the data cleaning youself. You do not need it if you use the cleaned datasets provided in the main directory.</br>
 
 ## Usage
 
