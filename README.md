@@ -87,7 +87,6 @@ A small cluster of data points can be spotted in the upper left corner, these ar
 <br/>
 <p align="center">
   <img src="./readme_media/phases.png" width="650"><br/>
-  Caption
  </p>
 <br/>
 
@@ -96,7 +95,6 @@ A view from above (pictured below) shows that most successful pharmaceutical com
 <br/>
 <p align="center">
   <img src="./readme_media/phases_z.png" width="650"><br/>
-  Caption
  </p>
 <br/>
 
@@ -105,11 +103,12 @@ Interestingly, a view from the side (pictured below) shows that successful pharm
 <br/>
 <p align="center">
   <img src="./readme_media/phases_x.png" width="650"><br/>
-  Caption
  </p>
 <br/>
 
 This interpretation of the data could be used to shape a prediction model for the appraisal of the likelihood that a drug candidate may reach clinical research phase 4.<br/>
+
+<br/>
 
 ### Target Organ System
 
