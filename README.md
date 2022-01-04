@@ -54,7 +54,7 @@ A further, crucial property of a molecule is its rigidity. This can be inferred 
 
 <br/>
 
-## Analysis
+## Methodology
 
 ### The Data
 
