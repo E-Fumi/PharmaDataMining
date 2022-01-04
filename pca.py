@@ -23,11 +23,10 @@ def run(path):
         df = pd.concat([df, data['target system']], axis=1)
     pca_outputs['transformed_data'] = df
     pca_outputs['explained_variance'] = np.round(pca.explained_variance_ratio_ * 100, decimals=1)
-    pca_outputs['loadings'] = pd.DataFrame(pca.components_.T, columns=labels, index=pca_data.columns)
+    pca_outputs['eigenvectors'] = pd.DataFrame(pca.components_.T, columns=labels, index=pca_data.columns)
     return pca_outputs
 
 
-# print(loadings[['PC 1', 'PC 2', 'PC 3']])
 def scree_plot(pca_outputs):
     var = pca_outputs['explained_variance']
     plt.bar(x=range(1, len(var) + 1), height=var, tick_label=labels, color='midnightblue')
@@ -37,8 +36,35 @@ def scree_plot(pca_outputs):
     plt.show()
 
 
-def plot_loadings(pca_outputs):
-    pass
+def plot_eigenvectors(pca_outputs):
+    for component in range(1, 4):
+        df = prepare_eigenvector_dataframe(pca_outputs, component)
+        prepare_eigenvector_plot(df, component)
+        plt.show()
+
+
+def prepare_eigenvector_dataframe(pca_outputs, component):
+    df = pca_outputs['eigenvectors'].loc[:, [f'PC {component}']]
+    pos = pd.DataFrame({'+': (df[f'PC {component}'] > 0)})
+    df = pd.concat([df, pos], axis=1)
+    df[f'PC {component}'] = df[f'PC {component}'].abs()
+    df = df.sort_values(by=f'PC {component}')
+    return df
+
+
+def prepare_eigenvector_plot(df, component):
+    colors = ['midnightblue' if i else 'darkred' for i in df['+'].tolist()]
+    plt.barh(y=range(1, len(df[f'PC {component}']) + 1),
+             width=df[f'PC {component}'],
+             tick_label=df[f'PC {component}'].index,
+             color=colors)
+    plt.ylabel('Compound Property')
+    plt.xlabel('Loading Scores')
+    legend_labels = ['positive contribution', 'negative contribution']
+    handles = [plt.Rectangle((0, 0), 1, 1, color='midnightblue'),
+               plt.Rectangle((0, 0), 1, 1, color='darkred')]
+    plt.legend(handles, legend_labels)
+    plt.title(f'Principal Component {component} Eigenvector')
 
 
 def scatter_plot(pca_outputs, phase_selection):

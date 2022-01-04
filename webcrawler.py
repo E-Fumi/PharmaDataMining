@@ -63,7 +63,6 @@ def find_missing_values(compound_details):
         properties['retrieval_failure'] = True
     finally:
         scraper[0].close()
-    # print(properties)
     return properties
 
 
