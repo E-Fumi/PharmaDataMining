@@ -185,7 +185,7 @@ One can clearly see that they occupy distinct chemical niches with little overla
 
 Here, pictured together, are the projections of pharmaceutical compounds that target the respiratory system, shown in light blue, and those of compounds that target the gastric tract and metabolism, shown in orange.<br/>
 
-While these two groups do not occupy non-overlapping regions of chemical space, one can see that compounds with gastric / metabolic targets are much more chemically varied than compounds targeting the respiratory system. This likewise reflects the diversity within each target system, for one, with the tissues of the respiratory tract being more alike one another than those in the gastric tract, but also with compounds with metabolically relevant targets not being as strictly tied to one set of tissues.<br/>
+While these two groups do not occupy non-overlapping regions of chemical space, one can see that compounds with gastric / metabolic targets are much more chemically varied than compounds targeting the respiratory system. This likewise reflects the diversity within each target system, for one, with the tissues of the respiratory tract being more alike one another than those in the gastric tract, but also with compounds with metabolically relevant targets not being as strictly tied to one tract.<br/>
 
 <br/>
 <p align="center">
