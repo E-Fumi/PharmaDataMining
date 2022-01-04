@@ -8,6 +8,6 @@ system_specific = False
 phase_selection = False
 
 if __name__ == '__main__':
-    cleaned_dataset = data_handling.clean_data(system_specific)
-    pca_outputs = pca.run(cleaned_dataset)
+    cleaned_dataset_path = data_handling.clean_data(system_specific)
+    pca_outputs = pca.run(cleaned_dataset_path)
     pca.scatter_plot(pca_outputs, phase_selection)
