@@ -93,20 +93,16 @@ def fix_charges(df):
 
 def determine_positive_charge(x):
     if x['Molecular Species'] == 'BASE' or x['Molecular Species'] == 'ZWITTERION':
-        return 1
-    elif isinstance(x['Molecular Formula'], str) and x['Molecular Formula'][-1] == '+':
-        return 1
+        return True
     else:
-        return 0
+        return isinstance(x['Molecular Formula'], str) and x['Molecular Formula'][-1] == '+'
 
 
 def determine_negative_charge(x):
     if x['Molecular Species'] == 'ACID' or x['Molecular Species'] == 'ZWITTERION':
-        return 1
-    elif isinstance(x['Molecular Formula'], str) and x['Molecular Formula'][-1] == '-':
-        return 1
+        return True
     else:
-        return 0
+        return isinstance(x['Molecular Formula'], str) and x['Molecular Formula'][-1] == '-'
 
 
 def estimate_logp(x, regressor):
