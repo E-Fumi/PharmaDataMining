@@ -128,7 +128,7 @@ The transformed data projected along the first three principal components has be
 
 In the figure below, one can see the >40,000 pharmaceutical compounds projected along the three principal component dimensions, color coded by which clinical phase they reached. Each point is transparent (alpha = 20%) to limit how much data points crowd each other out in the visual representation.<br/>
 
-A small cluster of data points can be spotted in the upper left corner, these are inorganic compounds. However, most data points represent organic molecules, and they group together in a cluster that is spread on a slanted plain.<br/>
+A small cluster of data points can be spotted in the upper left corner, these are inorganic compounds. However, most data points represent organic molecules, and they group together in a cluster that is spread on a slanted plane.<br/>
 
 <br/>
 <p align="center">
@@ -146,7 +146,7 @@ A view from above (pictured below) shows that most successful pharmaceutical com
  </p>
 <br/>
 
-Interestingly, a view from the side (pictured below) shows that successful pharmaceutical compounds tend to group towards the center of the cluster in the dimension perpendicular to its plain.<br/>
+Interestingly, a view from the side (pictured below) shows that successful pharmaceutical compounds tend to group towards the center of the cluster in the dimension perpendicular to its plane.<br/>
 
 <br/>
 <p align="center">
@@ -163,7 +163,7 @@ This interpretation of the data could be used to shape a prediction model for th
 
 A subset of approximately 3200 bioactive compounds are listed as targeting a specific organ system. These molecules are pictured below, likewise projected along the three principal component dimensions, and color coded by target. Here as well, points are shown with some transparency (alpha = 50%) to reduce crowding.<br/>
 
-The view of all compounds at once shows the same pattern of organic molecules occupying a slanted plain and a little inorganic cluster in the upper left corner, but is otherwise uninsightful. However, comparing two subsets within this plot can be more interesting.<br/>
+The view of all compounds at once shows the same pattern of organic molecules occupying a slanted plane and a little inorganic cluster in the upper left corner, but is otherwise uninsightful. However, comparing two subsets within this plot can be more interesting.<br/>
 
 <br/>
 <p align="center">
